@@ -1,0 +1,257 @@
+html {
+  position: center;
+  margin-left:7%;
+  margin-right:7%;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  background-color: #ffffff;
+  
+}
+
+body {
+
+  margin: 0px;
+  padding: 1vh;
+  font-family: sans-serif;
+  background-color: #ffffff;
+}
+
+
+a.navlink:hover,
+a.navlink:focus,
+a.navlink--green:hover,
+a.navlink--green:focus {
+   cursor: url("https://res.cloudinary.com/dxt2dr7uq/image/upload/v1591103152/cursor/cursorgreen_i2l6xn.png"), auto; 
+ }
+
+ a.navlink--pink:hover,
+ a.navlink--pink:focus {
+   cursor: url("https://res.cloudinary.com/dxt2dr7uq/image/upload/v1591103152/cursor/cursorpink_yhylwt.png"), auto; 
+ }
+
+
+ a.navlink--purple:hover,
+ a.navlink--purple:focus {
+   cursor: url("https://res.cloudinary.com/dxt2dr7uq/image/upload/v1591103152/cursor/cursorpurple_v0frfd.png"), auto; 
+ }
+
+ a.navlink--sauce:hover,
+ a.navlink--sauce:focus {
+   cursor: url("https://res.cloudinary.com/dxt2dr7uq/image/upload/v1591266237/cursor/blackpowfew_mmfddn.png"), auto; 
+ }
+
+
+ a.navlink--synonym:hover,
+ a.navlink--synonym:focus {
+   cursor: url("https://res.cloudinary.com/dxt2dr7uq/image/upload/v1591268805/cursor/exclam1_au0mh7.png"), auto; 
+ }
+
+ a.navlink--q:hover,
+ a.navlink--q:focus {
+   cursor: url("https://res.cloudinary.com/dxt2dr7uq/image/upload/v1591268603/cursor/exclam_okqflf.png"), auto; 
+ }
+
+ a.navlink--gallery:hover,
+ a.navlink--gallery:focus {
+   cursor: url("https://res.cloudinary.com/dxt2dr7uq/image/upload/v1591268714/cursor/exclam3_zjz8ae.png"), auto; 
+ }
+
+ a.navlink--contact:hover,
+ a.navlink--contact:focus {
+   cursor: url("https://res.cloudinary.com/dxt2dr7uq/image/upload/v1591269277/cursor/heart_xoc1yj.png"), auto; 
+ }
+
+ a.navlink--money:hover,
+ a.navlink--money:focus {
+   cursor: url("https://res.cloudinary.com/dxt2dr7uq/image/upload/v1591270134/cursor/money3_dy0pat.png"), auto; 
+ }
+
+ a.navlink--eyes:hover,
+ a.navlink--eyes:focus {
+   cursor: url("https://res.cloudinary.com/dxt2dr7uq/image/upload/v1591272493/cursor/eyes_fk4ofq.png"), auto; 
+ }
+
+
+h1 {
+  color: white;
+  font-family: Terminal Grotesque Open;
+  margin: 0px;
+  font-size: 10px;
+  -webkit-text-stroke-width: 0.25px;
+  -webkit-text-stroke-color: black;
+}
+
+h2 {
+  margin-left: 95%;
+  position:right;
+}
+
+img {
+  position:center;
+  margin-left:10%;
+  margin-right:10%;
+  max-width: 90%;
+  height: auto;
+}
+
+#logo {
+  height:100%;
+  width:100%;
+}
+
+p {
+  color: white;
+  font-family: GT Alpina;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 60px;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: black;
+  position:absolute;
+}
+
+
+.p2 {
+  font-family: GT Alpina;
+  color: black;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.h2 {
+  font-family: Times;
+  color: black;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.h2 {
+  font-family: GT Alpina;
+  color: black;
+  font-weight: bold;
+  font-size:20px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 40px;
+  background-color: #ffffff;
+  flex: auto;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  background-color: #ffffff;
+  flex-direction: row;
+}
+
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 80%;
+  }
+}
+
+.photo:hover {
+  background-size: 500px;
+}
+img.bar {
+  align-content: center;
+ }
+
+
+.s1:hover:after {
+    float: left;
+    content: url(https://res.cloudinary.com/dxt2dr7uq/image/upload/v1590841952/hover-media/lid4_vbzu05.gif); 
+    position: relative;
+    width: 100%;
+ 
+}
+
+
+
+.s2:hover:after {
+  float: left;
+  content: url(https://res.cloudinary.com/dxt2dr7uq/image/upload/v1591087976/high-res/hover_mm84jz.png);
+  position: absolute;
+
+}
+
+
+.s3:hover:after {
+  float: left;
+  content: url(https://res.cloudinary.com/dxt2dr7uq/image/upload/v1591087968/high-res/cheerio_fy3ezv.png);
+  position: absolute;
+  height: 10%;
+
+}
+
+.s4:hover:after {
+  float: left;
+  content: url(https://res.cloudinary.com/dxt2dr7uq/image/upload/v1591087975/high-res/home_p7xcgv.png);
+  position: absolute;
+
+}
+
+.s5:hover:after {
+  float: left;
+  content: url(https://res.cloudinary.com/dxt2dr7uq/image/upload/v1591087984/high-res/welcome_jzcgi8.png);
+  position: relative;
+
+}
+
+.s6:hover:after {
+  float: left;
+  content: url(https://res.cloudinary.com/dxt2dr7uq/image/upload/v1590841954/hover-media/dip11_vlvpii.gif);
+  position: absolute;
+
+}
+
+.s7:hover:after {
+  float: left;
+  content: url(https://res.cloudinary.com/dxt2dr7uq/image/upload/v1590841940/hover-media/spill8_ekvqr3.gif);
+  position: absolute;
+}
+
+.s8:hover:after {
+  float: left;
+  content: url(https://res.cloudinary.com/dxt2dr7uq/image/upload/v1591120641/images/hh_v7hfzi.png);
+  position: absolute;
+  z-index:99;
+}
+
+.s8 a:hover span{
+  display:block;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -50px;
+}
+
+.s9:hover:after {
+  float: left;
+  content: url(https://res.cloudinary.com/dxt2dr7uq/image/upload/v1591303269/hover-media/shm_ynz6be.png);
+  position: absolute;
+}
+
+.s10:hover:after {
+  float: left;
+  content: url(https://res.cloudinary.com/dxt2dr7uq/image/upload/v1591303568/hover-media/gripp_fryc2t.png);
+  position: absolute;
+}
+
+.s11:hover:after {
+  float: left;
+  content: url(https://res.cloudinary.com/dxt2dr7uq/image/upload/v1591304230/hover-media/fin_agsqcz.png);
+  position: absolute;
+}
+

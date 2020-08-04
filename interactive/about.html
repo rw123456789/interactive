@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="icon" type="image/png" href="https://res.cloudinary.com/dxt2dr7uq/image/upload/v1590841572/images/blackpow_hejdeb.png">
+    <title>about</title>
+    <link rel="stylesheet" type="text/css" href="stylesheets/app.CSS">
+    <meta charset="utf-8" />
+  </head>
+  <body>
+    <h1>
+      <span class="s8">
+        <img class="bar" src="https://res.cloudinary.com/dxt2dr7uq/image/upload/v1591087969/high-res/about_vvaqem.gif" alt="?????????" id="bar" style="width: 100%;">
+      </span>
+      </h1>
+  <div class="row">
+    <div class="column" style="background-color:#ffffff;">
+      <div class="hover">
+        <span class="s1">
+          <a href="index.html" class="navlink--sauce">
+            <img src="https://res.cloudinary.com/dxt2dr7uq/image/upload/v1591087982/high-res/logo-white_p67y3o.png" alt="white logo" style="position: relative;">
+        </a>
+          </span>
+      </div>
+    </div>
+    <div class="column" style="background-color:#ffffff;">
+      
+       <img src="https://res.cloudinary.com/dxt2dr7uq/image/upload/v1590841567/images/questionmarksmall_pxprfk.png" alt="about page button">
+      
+      </div>
+    <div class="column" style="background-color:#ffffff;">
+      <div class="hover">
+        <span class="s3">
+          <a href="javascript:openSite()">
+            <img src="https://res.cloudinary.com/dxt2dr7uq/image/upload/v1590841567/images/waveline_mctzaf.png" alt="cheerio">
+          </a>
+        </span>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="column" style="background-color:#ffffff;">
+        <p>open sauce... <br> to spill into your sphere of being
+        </p>
+    </div>
+    <div class="column" style="background-color:#ffffff;">
+      <a href="getagrip.html">
+        <img src="https://res.cloudinary.com/dxt2dr7uq/image/upload/v1590841567/images/purplepow_bhdogv.png" alt="purple pow" style="width:20vh" >
+     </a>
+    </div>
+    <div class="column" style="background-color:#ffffff;">
+      <a href="loveletter.html">
+        <img src="https://res.cloudinary.com/dxt2dr7uq/image/upload/v1590841567/images/pinkpow_ruglev.png" alt="pink pow">
+      </a>
+    </div>
+  </div>
+  <div class="row">
+    <div class="column" style="background-color:#ffffff;">
+      <a href="haveyourfill.html">
+        <img src="https://res.cloudinary.com/dxt2dr7uq/image/upload/v1590841570/images/greenpow_jq0rvo.png" alt="green pow" style="width:20vh">
+      </a>
+    </div>
+    <div class="column" style="background-color:#ffffff;">
+      <a href="https://dictionary.cambridge.org/dictionary/english/free" class="navlink--money">
+        <img src="https://res.cloudinary.com/dxt2dr7uq/image/upload/v1590841566/images/zeropounds_vk2w3k.png" alt="zero">
+      </a>
+    </div>
+    <div class="column" style="background-color:#ffffff;">
+      <a href="contact.html" class="navlink--contact">
+        <img src="https://res.cloudinary.com/dxt2dr7uq/image/upload/v1590841571/images/contact_ryvzgr.png" alt="contact button">
+      </a>
+    </div>
+  </div>
+  <img src="https://res.cloudinary.com/dxt2dr7uq/image/upload/v1590841572/images/barcode_gfahjl.png" alt="barcode">
+  © open sauce publications 2020
+</body>
+
+  <script>
+    var links = [
+                  "soundcloud.com/user-770797323/cheer-up-love", 
+                  "youtube.com/watch?v=Dv3w0-R0OnA",
+                  "dailymail.co.uk/news/article-2640190/Spurs-fan-Britains-dangerous-prisoner-Charles-Bronson-61-smears-butter-taking-TWELVE-officers-Arsenal-win-FA-Cup.html",
+                  "bbc.co.uk/iplayer/episode/p04b183c/adam-curtis-hypernormalisation",
+                  "youtube.com/watch?v=qkZFQjRZWxk",
+                  "en.wikipedia.org/wiki/Coneheads_(film)",
+                  "dictionary.cambridge.org/dictionary/english/hobnob",
+                  "youtube.com/watch?v=F4FGI314SoY",
+                  "dollarstorestories.com",
+                  "psychsoftek.com",
+                  ]
+    
+               var openSite = function() {
+                  // get a random number between 0 and the number of links
+                  var randIdx = Math.random() * links.length;
+                  // round it, so it can be used as array index
+                  randIdx = parseInt(randIdx, 10);
+                  // construct the link to be opened
+                  var link = 'http://' + links[randIdx];
+    
+         var win = window.open(link, '_blank');
+         win.focus();
+    
+        };
+  </script>
+</html>
