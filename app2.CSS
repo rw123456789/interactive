@@ -1,0 +1,163 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #ffffff;
+}
+
+header {
+  padding: 1rem 0;
+  text-align: center;
+  background: #fff;
+  border-bottom: 2px dashed #ffffff;
+}
+
+  header h1 {
+    text-transform: uppercase;
+  }
+
+.grid {
+  display: flex;
+}
+
+  .grid .column {
+    flex: 1;
+    background-color: white;
+  }
+
+  .grid .column.canvas {
+    flex: 0 0 900px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: pink;
+    padding: 2.5rem 0;
+  }
+
+    .column.canvas canvas {
+      background: white;
+      width: 802px;
+      cursor: crosshair;
+    }
+
+.actions {
+
+}
+
+  .actions .set {
+    padding: 2rem;
+    text-align: center;
+  }
+
+  .actions button {
+    display: inline-block;
+    /* shared among two buttons */
+    border-radius: 10px;
+  }
+
+  .actions button#bt-save {
+    color: red;
+  }
+
+  .actions button#bt-clear {
+    color: green;
+  }
+
+.toolkit {
+  width: 100%;
+}
+
+  .toolkit .palette {
+    position: relative;
+    height: 30%;
+  }
+
+    .toolkit .palette .bt-color {
+      position: absolute;
+      width: 4rem;
+      height: 4rem;
+      border-radius: 4rem;
+      cursor: pointer;
+    }
+
+    .palette .bt-color.green { background-color: green; }
+    .palette .bt-color.red { background-color: red; }
+    .palette .bt-color.yellow { background-color: yellow; }
+    .palette .bt-color.orange { background-color: orange; }
+    .palette .bt-color.blue { background-color: blue; }
+    .palette .bt-color.pink { background-color: pink; }
+    .palette .bt-color.black { background-color: black; }
+    .palette .bt-color.grey { background-color: grey; }
+    .palette .bt-color.purple { background-color: purple; }
+    .palette .bt-color.brown { background-color: brown; }
+
+  .toolkit .lineWidth {
+    height: auto;
+  }
+
+    .toolkit .lineWidth .bt-lineWidth {
+      border-radius: 10px;
+      background-color: #ffffff;
+      color: black;
+      padding: 1rem;
+      font-family: GT Alpina Bold;
+      font-size: 2em;
+      font-weight: bold;
+    }
+
+.canvasBackgroundImage {
+  display: none;
+}
+
+.canvas-results {
+  display: none;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+.column img {
+  margin-top: 12px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+a.navlink--gallery:hover,
+a.navlink--gallery:focus {
+  cursor: url("https://res.cloudinary.com/dxt2dr7uq/image/upload/v1591268714/cursor/exclam3_zjz8ae.png"), auto; 
+}
+
+a.navlink--sauce:hover,
+a.navlink--sauce:focus {
+  cursor: url("https://res.cloudinary.com/dxt2dr7uq/image/upload/v1591266237/cursor/blackpowfew_mmfddn.png"), auto; 
+}
+
+
+.thumbnails {
+  overflow-y: auto;
+  height: 70vh;
+}
+
+.thumbnails button {
+  border: none;
+  width: 100px;
+  height: 128px;
+  border-radius: 0;
+  cursor: pointer;
+  background-size: cover;
+  background-position: center center;
+}
+
+.thumbnails button:hover,
+.thumbnails button:focus {
+  background-color: pink;
+}
